@@ -2,6 +2,7 @@
   background-color: #fff;
 }
 .header {
+  display: flex;
   background-color: grey;
 }
 .hero-img {
@@ -22,15 +23,20 @@
   text-align: center;
   letter-spacing: 0.06em;
 }
+
+.nav-list {
+  display: flex;
+}
 .nav-item {
-  display: inline;
+  display: block;
   margin-left: 100px;
 }
 .contacts-list {
+  display: flex;
   margin-left: 1078px;
 }
 .contacts-item {
-  display: inline;
+  display: block;
 }
 .cont-link1 {
 }
