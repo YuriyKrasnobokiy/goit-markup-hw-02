@@ -1,3 +1,39 @@
-body {
-  background-color: green;
+.body {
+  background-color: #fff;
+}
+.header {
+  background-color: grey;
+}
+.hero-img {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+
+.hero-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.nav-item {
+  display: inline;
+  margin-left: 100px;
+}
+.contacts-list {
+  margin-left: 1078px;
+}
+.contacts-item {
+  display: inline;
+}
+.cont-link1 {
+}
+.cont-link2 {
+  margin-left: 20px;
 }
