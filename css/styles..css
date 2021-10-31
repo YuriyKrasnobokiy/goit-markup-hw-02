@@ -2,7 +2,7 @@
   background-color: #fff;
 }
 .header {
-  display: flex;
+  /* display: flex; */
   background-color: grey;
 }
 .hero-img {
@@ -25,21 +25,21 @@
 }
 
 .nav-list {
-  display: flex;
+  /* display: flex; */
 }
 .nav-item {
-  display: block;
+  /* display: block; */
   margin-left: 100px;
 }
 .contacts-list {
-  display: flex;
-  margin-left: 1078px;
+  /* display: flex; */
 }
 .contacts-item {
-  display: block;
+  /* display: block; */
 }
 .cont-link1 {
 }
 .cont-link2 {
   margin-left: 20px;
 }
+ul {list-style: none;
