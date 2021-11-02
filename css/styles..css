@@ -11,3 +11,15 @@
   --title-text-color #212121;
   --accent-color #2196F3;
 }
+body {
+  background-color: #FFFFFF;
+}
+
+.team {background-color: #F5F4FA;}
+
+footer {
+  background-color: #2F303A;
+}
+ul{
+  list-style-type: none;
+}
