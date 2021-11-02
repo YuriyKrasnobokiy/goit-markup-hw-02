@@ -19,7 +19,10 @@ body {
 
 footer {
   background-color: #2F303A;
+ul {
+  list-style: none;
 }
+
 ul{
   list-style-type: none;
 }
