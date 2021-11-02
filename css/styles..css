@@ -1,45 +1,13 @@
-.body {
-  background-color: #fff;
+/* белый #FFFFFF
+веб студия черный #000000 
+основной текст #212121
+дополнительный текст #757575
+акцент #2196F3
+наша команда #F5F4FA
+футер #2F303A
+мыло и тлф #ffffff+60% прозрачности
+*/
+:root {
+  --title-text-color #212121;
+  --accent-color #2196F3;
 }
-.header {
-  /* display: flex; */
-  background-color: grey;
-}
-.hero-img {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
-  background: #2f303a;
-}
-
-.hero-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-
-.nav-list {
-  /* display: flex; */
-}
-.nav-item {
-  /* display: block; */
-  margin-left: 100px;
-}
-.contacts-list {
-  /* display: flex; */
-}
-.contacts-item {
-  /* display: block; */
-}
-.cont-link1 {
-}
-.cont-link2 {
-  margin-left: 20px;
-}
-ul {list-style: none;
