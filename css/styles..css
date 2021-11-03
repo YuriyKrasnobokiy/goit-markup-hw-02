@@ -4,25 +4,85 @@
 дополнительный текст #757575
 акцент #2196F3
 наша команда #F5F4FA
-футер #2F303A
+футер и герой #2F303A
 мыло и тлф #ffffff+60% прозрачности
 */
+
+.web {color: #2196F3;
+  font-family: Raleway, sans-serif;;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;}
+
+.studio {color: #000000;
+  font-family: Raleway, sans-serif;;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;}
+
+.nav-item-link {color: #212121; 
+font-family: Roboto, sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em}
+
+.contacts-item-link {font-family: Roboto, sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;}
+
+.nav-item-link:hover {color: #2196F3;}
+.contacts-item-link:hover {color: #2196F3;}
+
 :root {
   --title-text-color #212121;
-  --accent-color #2196F3;
-}
+  --hero-text-color #FFFFFF;
+  --accent-color #2196F3;}
+
 body {
   background-color: #FFFFFF;
 }
+.hero { background-color: #2F303A;
+width: 1600px; height: 600px;}
+
+.hero-text {text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+ul {list-style:none;}
+
+.logo-link, .nav-item-link, .contacts-item-link, .address-item-link {text-decoration: none;}
 
 .team {background-color: #F5F4FA;}
 
-footer {
-  background-color: #2F303A;
-ul {
-  list-style: none;
-}
+.footer {
+  background-color: #2F303A;}
 
-ul{
-  list-style-type: none;
-}
+.adress-text {
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;}
+
+.address-item-link {
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}

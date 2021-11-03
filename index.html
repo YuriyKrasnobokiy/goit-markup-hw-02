@@ -14,30 +14,29 @@
 <body class="body">
     <!--Шапка сайта-->
     <header class="header">
-        
         <nav class="navigation">
             <ul class="nav-list">
-                <li class="nav-item"><a href="/">WEBStudio</a></li>
-                <li class="nav-item"><a href="./index.html">Студия</a></li>
-                <li class="nav-item"><a href="./portpholio.html">Портфолио</a></li>
-                <li class="nav-item"><a href="">Контакты</a></li>
+                <li class="nav-item"><a class="logo-link" href="/"><span class="web">WEB</span><span class="studio">Studio</span></a></li>
+                <li class="nav-item"><a class="nav-item-link" href="./index.html">Студия</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="./portpholio.html">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="">Контакты</a></li>
             </ul>
         </nav>
         <ul class="contacts-list">
-            <li class="contacts-item"><a class="cont-link1" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contacts-item"><a class="cont-link2" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="contacts-item"><a class="contacts-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-item"><a class="contacts-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
         <!--Герой-->
         <section class="hero">
-            <img class="hero-img" src="./images/Bg.jpg" alt="gray box" height="600" width="1600">
+            <!-- <img class="hero-img" src="./images/Bg.jpg" alt="gray box" height="600" width="1600"> -->
             <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="hero-buttom">Заказать услугу</button>
         </section>
         <!--Особенности-->
         <section class="features">
-            <h2>Особенности</h2>
+            <h2 hidden>Особенности</h2>
             <ul class="features-list">
                 <li class="features-item">
                     <h3>Внимание к деталям</h3>
@@ -99,16 +98,16 @@
             </ul>
         </section>
     </main>
-<!--Футер-->
-<footer class="footer">
-    <a href="/">WEBStudio</a>
-    <address class="address">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="address-list">
-            <li class="address-item"><a href="mailto:info@example.com">info@example.com</a></li>
-            <li class="address-item"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-    </address>
-</footer>
+    <!--Футер-->
+    <footer class="footer">
+        <a class="logo-link" href="/"><span class="web">WEB</span><span class="studio">Studio</span></a>
+        <address class="address">
+            <p class="adress-text">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address-list">
+                <li class="address-item"><a class="address-item-link" href="mailto:info@example.com">info@example.com</a></li>
+                <li class="address-item"><a class="address-item-link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+        </address>
+    </footer>
 </body>
 </html>
