@@ -1,17 +1,27 @@
 /* белый #FFFFFF
 веб студия черный #000000 
 основной текст #212121
-дополнительный текст #757575
+доп текст #757575
 акцент #2196F3
 наша команда #F5F4FA
 футер и герой #2F303A
 мыло и тлф #ffffff+60% прозрачности
 */
+body {
+  background-color: #FFFFFF
+  color: #212121;}
+
+  :root {
+  --primal-text-color: #212121;
+  --secondary-text-color: #757575; 
+  --accent-color: #2196F3;}
+
+  /* HEADER-NAVIGATION */
 
 .web {color: #2196F3;
   font-family: Raleway, sans-serif;;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;}
@@ -19,12 +29,12 @@ letter-spacing: 0.03em;}
 .studio {color: #000000;
   font-family: Raleway, sans-serif;;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;}
 
-.nav-item-link {color: #212121; 
+.nav-item-link {color:var(--primal-text-color); 
 font-family: Roboto, sans-serif;;
 font-style: normal;
 font-weight: 500;
@@ -38,33 +48,102 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-color: #757575;}
+color:var(--secondary-text-color);}
 
-.nav-item-link:hover {color: #2196F3;}
-.contacts-item-link:hover {color: #2196F3;}
+.nav-item-link:hover, .contacts-item-link:hover {color:var(--accent-color);}
 
-:root {
-  --title-text-color #212121;
-  --hero-text-color #FFFFFF;
-  --accent-color #2196F3;}
+.nav-item-link:focus, .contacts-item-link:focus {color:var(--accent-color);}
 
-body {
-  background-color: #FFFFFF;
-}
-.hero { background-color: #2F303A;
-width: 1600px; height: 600px;}
+                      /* HERO */
 
-.hero-text {text-align: center;
+.hero { background-color: #2F303A;}
+
+.hero-text {font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
-}
+color: #FFFFFF;}
+
+.hero-button:hover {background-color:var(--accent-color); color: #FFFFFF;}
+.hero-button:focus {background-color:var(--accent-color); color: #FFFFFF;}
+
+.hero-btn-text {font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.06em;}
 
 ul {list-style:none;}
 
 .logo-link, .nav-item-link, .contacts-item-link, .address-item-link {text-decoration: none;}
 
+/* features */
+
+.features-title {font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--primal-text-color);}
+
+.features-item-text {font-family: Roboto, sans-serif; 
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color);}
+
+.our-work-title {font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--primal-text-color);}
+
+      /* TEAM */
+
 .team {background-color: #F5F4FA;}
+
+.team-title {font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--primal-text-color);}
+
+.team-item-title {
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--primal-text-color);}
+
+.team-item-desc {font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color);}
+
+/* FOOTER */
 
 .footer {
   background-color: #2F303A;}
@@ -72,7 +151,7 @@ ul {list-style:none;}
 .adress-text {
 font-family: Roboto, sans-serif;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
@@ -81,8 +160,20 @@ color: #FFFFFF;}
 .address-item-link {
 font-family: Roboto, sans-serif;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);}
+
+.address-item-link:hover {color:var(--accent-color);}
+.address-item-link:focus {color:var(--accent-color);}
+
+.footer-studio {
+  color: #FFFFFF;
+  font-family: Raleway, sans-serif;;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;}
