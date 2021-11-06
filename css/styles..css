@@ -1,19 +1,5 @@
 /* INDEX OR STUDIO */
 
-/* белый #FFFFFF;
-веб студия черный #000000; 
-основной текст #212121;
-доп текст #757575;
-акцент #2196F3;
-наша команда #F5F4FA;
-футер и герой #2F303A;
-мыло и тлф rgba(255, 255, 255, 0.6);
-*/
-body {
-  background-color: #ffffff;
-  color: #757575;
-}
-
 :root {
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -21,6 +7,12 @@ body {
   --hero-text-color: #ffffff;
   --nav-link-color: #212121;
   --contact-link-color: #757575;
+  --btn-text-color: #212121;
+}
+body {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -68,8 +60,6 @@ body {
 
 .nav-item-link {
   color: var(--nav-link-color);
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -77,8 +67,6 @@ body {
 }
 
 .contacts-item-link {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -103,8 +91,6 @@ body {
 }
 
 .hero-text {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -115,13 +101,13 @@ body {
 }
 
 .hero-button {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
+  cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
+  color: var(--btn-text-color);
 }
 
 .hero-button:hover {
@@ -136,8 +122,6 @@ body {
 /* features */
 
 .features-title {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
@@ -147,8 +131,6 @@ body {
 }
 
 .features-item-text {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -156,8 +138,6 @@ body {
 }
 
 .our-work-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -173,8 +153,6 @@ body {
 }
 
 .team-title {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -184,8 +162,6 @@ body {
 }
 
 .team-item-title {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -195,8 +171,6 @@ body {
 }
 
 .team-item-desc {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -211,7 +185,6 @@ body {
 }
 
 .adress-text {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -221,7 +194,6 @@ body {
 }
 
 .address-item-link {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -252,13 +224,14 @@ body {
 /* FILTER BTN */
 
 .filter-btn {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
+  cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--btn-text-color);
 }
 
 .filter-btn:hover {
@@ -274,8 +247,6 @@ body {
 /* WORK EXAMPLES */
 
 .examples-item-title {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -284,8 +255,6 @@ body {
 }
 
 .examples-item-text {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
