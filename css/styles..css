@@ -8,9 +8,13 @@
   --nav-link-color: #212121;
   --contact-link-color: #757575;
   --btn-text-color: #212121;
+  --body-bg-color: #ffffff;
+  --hero-bg-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--body-bg-color);
   color: #757575;
   font-family: Roboto, sans-serif;
 }
@@ -66,6 +70,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.linkcurrent {
+  color: var(--accent-color);
+}
+
 .contacts-item-link {
   font-weight: 500;
   font-size: 14px;
@@ -87,7 +95,7 @@ body {
 /* HERO */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-bg-color);
 }
 
 .hero-text {
@@ -124,14 +132,13 @@ body {
 .features-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
 .features-item-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -149,7 +156,7 @@ body {
 /* TEAM */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-bg-color);
 }
 
 .team-title {
@@ -171,7 +178,6 @@ body {
 }
 
 .team-item-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -181,7 +187,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-bg-color);
 }
 
 .adress-text {
@@ -255,7 +261,6 @@ body {
 }
 
 .examples-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
